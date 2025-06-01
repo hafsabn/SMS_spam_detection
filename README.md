@@ -2,7 +2,7 @@
 
 This project focuses on detecting spam messages in SMS texts using two different approaches: a **Baseline Machine Learning approach** and an **Advanced Deep Learning approach with BERT**.
 
-## 🗂️ Dataset
+## Dataset
 
 - **Source:** [Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)  
 We used a dataset of SMS messages labeled as **ham (not spam)** or **spam**.  
