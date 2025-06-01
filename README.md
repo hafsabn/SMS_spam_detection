@@ -46,7 +46,8 @@ Instead of SMOTE, we used **class weights in the loss function** to give more im
 
 We also built a simple interface to test the model using Streamlit.
 Users can input an SMS message and get a prediction: **Spam** or **Ham**.
-
+![image1](images/image1)
+![image2](images/image2)
 
 
 
