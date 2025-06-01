@@ -42,6 +42,12 @@ In this approach, we used **BERT**, a powerful language model from Google that u
 ### Handling Imbalanced Data
 Instead of SMOTE, we used **class weights in the loss function** to give more importance to the minority class (spam).
 
+## 🖥️ Interface
+
+We also built a simple interface to test the model using Streamlit.
+Users can input an SMS message and get a prediction: **Spam** or **Ham**.
+
+
 
 
 ## What We Learned
@@ -53,5 +59,6 @@ Instead of SMOTE, we used **class weights in the loss function** to give more im
 
 ## Conclusion
 
-Both approaches gave us good insights.  
-The BERT model provided better performance in understanding complex patterns in the text, while the traditional models were simpler and faster to train.
+Both approaches helped us understand the spam detection problem from different angles.  
+However, the **BERT model gave the best results**, achieving an **accuracy of 99%**.  
+It was especially good at understanding the context of messages, making it more powerful than traditional models in this task.
