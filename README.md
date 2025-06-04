@@ -1,4 +1,4 @@
-# 📱 SMS Spam Detection
+#  SMS Spam Detection
 
 This project focuses on detecting spam messages in SMS texts using two different approaches: a **Baseline Machine Learning approach** and an **Advanced Deep Learning approach with BERT**.
 
@@ -9,7 +9,7 @@ We used a dataset of SMS messages labeled as **ham (not spam)** or **spam**.
 One challenge we faced was that the dataset was **imbalanced**, meaning there were more ham messages than spam ones.
 
 
-## 🔹 Baseline Approach (Traditional Machine Learning)
+##  Baseline Approach (Traditional Machine Learning)
 
 In this method, we followed these steps:
 
@@ -31,7 +31,7 @@ We used **SMOTE** (Synthetic Minority Oversampling Technique) after applying TF-
 
 
 
-## 🔸 Advanced Approach (Deep Learning with BERT)
+##  Advanced Approach (Deep Learning with BERT)
 
 In this approach, we used **BERT**, a powerful language model from Google that understands the context of words in a sentence.
 
@@ -42,7 +42,7 @@ In this approach, we used **BERT**, a powerful language model from Google that u
 ### Handling Imbalanced Data
 Instead of SMOTE, we used **class weights in the loss function** to give more importance to the minority class (spam).
 
-## 🖥️ Interface
+##  Interface
 
 We also built a simple interface to test the model using Streamlit.
 Users can input an SMS message and get a prediction: **Spam** or **Ham**.
