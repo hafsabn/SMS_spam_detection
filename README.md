@@ -56,7 +56,7 @@ Users can input an SMS message and get a prediction: **Spam** or **Ham**.
 ## What We Learned
 
 - The **difference** between traditional ML and advanced NLP models like BERT.
-- How **BERT works** and how to use it for classification tasks.
+- How **BERT works** and how to use it for classification tasks
 - How to **handle imbalanced datasets** using different techniques.
 
 
